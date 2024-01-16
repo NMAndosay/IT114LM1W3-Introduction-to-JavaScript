@@ -66,16 +66,16 @@ console.log("Incremented Numbers:", incrementedNumbers);
 // Then, import and call the add method here and display the value of the PI constant
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-import { add, PI } from './mathUtils.mjs';
+import { add, PI } from './mathUtils.js';
 const sum = add(3, 7);
 console.log("Sum:", sum);
-console.log("PI Constant:", mathUtils.PI);
+console.log("PI Constant:", PI);
 
 // Todo 4.5: See isPalindrome.js for the instructions to create the isPalindrome method.
 // Then, import and call the isPalindrome method here
 // Useful Tutorial: https://youtu.be/qgRUr-YUk1Q?si=ceAaeHJfCYCmeNWx
 // Your code here
-import isPalindrome from './isPalindrome.mjs';
+import isPalindrome from './isPalindrome.js';
 const result = isPalindrome("level");
 console.log("Is Palindrome:", result);
 
